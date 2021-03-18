@@ -1,0 +1,1 @@
+Você vai encontrar um monte de código de exercícios. Vou comentar, para ficar melhor a compreensão.
