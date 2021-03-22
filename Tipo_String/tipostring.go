@@ -6,6 +6,6 @@ import (
 
 func main() {
 	s := "Hello Luana"
-	fmt.Printf("%v, %T", s, s)
+	fmt.Printf("%v \n %T", s, s)
 
 }
