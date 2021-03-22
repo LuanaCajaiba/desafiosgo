@@ -8,7 +8,10 @@ func main() {
 	s := "Hello Luana"
 	sb := []byte(s)
 
-	fmt.Printf("%v \n %T", sb, sb)
+	for _, v := range sb {
+
+		fmt.Printf("%v - %T - %#U - %#x", v, v, v, v)
+	}
 
 	j := `  colando
 	
