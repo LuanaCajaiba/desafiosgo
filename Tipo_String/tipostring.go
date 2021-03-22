@@ -18,13 +18,13 @@ func main() {
 	}
 
 	fmt.Println(" ")
-
+	//o resultado será caractere por caractere
 	for _, v := range s {
-		fmt.Printf("%v - %T - %#U - %#x\n", v, v, v, v)
+		fmt.Printf("%b - %v - %T - %#U - %#x\n", v, v, v, v, v)
 	}
-
+	//o resiltado será byte por byte
 	for i := 0; i < len(s); i++ {
-		fmt.Printf("%v - %T - %#U - %#x\n", s[i], s[i], s[i], s[i])
+		fmt.Printf("%b - %v - %T - %#U - %#x\n", s[i], s[i], s[i], s[i], s[i])
 	}
 
 	fmt.Println(" ")
