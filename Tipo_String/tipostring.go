@@ -10,7 +10,7 @@ func main() {
 
 	for _, v := range sb {
 
-		fmt.Printf("%v - %T - %#U - %#x", v, v, v, v)
+		fmt.Printf("%v - %T - %#U - %#x\n", v, v, v, v)
 	}
 
 	j := `  colando
