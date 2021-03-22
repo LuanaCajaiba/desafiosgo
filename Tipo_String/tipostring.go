@@ -6,11 +6,13 @@ import (
 
 func main() {
 	s := "Hello Luana"
-	fmt.Printf("%v \n %T", s, s)
+	sb := []byte(s)
+
+	fmt.Printf("%v \n %T", sb, sb)
 
 	j := `  colando
 	
-	aspas             simples
+	acento      grave
 	
 	tem como          colocar 
 	
