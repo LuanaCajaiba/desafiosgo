@@ -5,6 +5,9 @@ import (
 )
 
 const (
+	a = iota
+	b = iota
+	c = iota
 	x = iota
 	y = iota
 	z = iota
@@ -12,5 +15,5 @@ const (
 
 func main() {
 
-	fmt.Println(x, y, z)
+	fmt.Println(a, b, c, x, y, z)
 }
