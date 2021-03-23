@@ -18,7 +18,7 @@ func main() {
 	}
 
 	fmt.Println(" ")
-	//o resultado será caractere por caractere
+	//o resultado será caractere por caractere - UTF8
 	for _, v := range s {
 		fmt.Printf("%b - %v - %T - %#U - %#x\n", v, v, v, v, v)
 	}
