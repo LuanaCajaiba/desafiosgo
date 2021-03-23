@@ -7,6 +7,7 @@ import (
 const (
 	a = iota * 10
 	b
+	_ //usado para pular o número
 	c
 	d
 )
