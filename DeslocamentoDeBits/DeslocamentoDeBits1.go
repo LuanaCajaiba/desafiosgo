@@ -8,7 +8,7 @@ func main() {
 
 	y := 24
 
-	x := y << 2
+	x := y << 2 // deslocamento em duas casas
 	z := y >> 2
 
 	fmt.Printf("%b\n", y)
