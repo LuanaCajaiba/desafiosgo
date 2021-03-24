@@ -31,4 +31,13 @@ func main() {
 	} else {
 		fmt.Println("50 não é diferente nem igual a 60")
 	}
+
+	g := (10 == 100)
+	h := (10 != 100)
+	i := (10 <= 100)
+	j := (10 < 100)
+	k := (10 >= 100)
+	l := (10 > 100)
+
+	fmt.Printf("%v\n%v\n%v\n%v\n%v\n%v\n", g, h, i, j, k, l)
 }
