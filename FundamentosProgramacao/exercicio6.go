@@ -9,8 +9,17 @@ const (
 	d
 )
 
+const (
+	_ = 2050 + iota
+	e
+	f
+	g
+	h
+)
+
 func main() {
 
 	fmt.Println(a, b, c, d)
+	fmt.Println(e, f, g, h)
 
 }
