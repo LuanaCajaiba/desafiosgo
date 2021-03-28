@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	for x := 0; x < 10; x++ { //for x é igual a 0, enquanto x for menor que 10 acrescenta-se 1 ao x
+	/*for x := 0; x < 10; x++ { //for x é igual a 0, enquanto x for menor que 10 acrescenta-se 1 ao x
 		fmt.Println(x)
 	}
 
@@ -27,6 +27,17 @@ func main() {
 	for {
 		fmt.Println("Loop")
 		break
+	}*/
+
+	x := 0
+	for {
+		if x < 10 {
+			x++
+			fmt.Println("x é menor que 10")
+		} else {
+			fmt.Println("x não é menor que 10")
+			break
+		}
 	}
 
 }
