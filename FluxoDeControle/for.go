@@ -6,6 +6,24 @@ func main() {
 	for x := 0; x < 10; x++ { //for x é igual a 0, enquanto x for menor que 10 acrescenta-se 1 ao x
 		fmt.Println(x)
 	}
+
+	for x := 0; x != 5; x++ {
+		fmt.Println(x)
+	}
+
+	for x := 0; x <= 5; x++ {
+		if x%2 == 0 {
+			continue
+		}
+		fmt.Println("Impares", x)
+	}
+
+	i := 1
+	for i <= 3 {
+		fmt.Println(i)
+		i = i + 1
+	}
+
 }
 
 //inicialização x:=0
