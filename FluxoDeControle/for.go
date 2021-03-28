@@ -24,6 +24,11 @@ func main() {
 		i = i + 1
 	}
 
+	for {
+		fmt.Println("Loop")
+		break
+	}
+
 }
 
 //inicialização x:=0
