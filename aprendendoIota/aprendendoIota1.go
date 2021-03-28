@@ -29,6 +29,6 @@ func main() {
 	fmt.Printf("%b\t\t", MB)
 	fmt.Printf("%d\n", MB)
 	fmt.Printf("%b\t", GB)
-	fmt.Printf("%d\n", GB)
+	fmt.Printf("%d\n", GB)  
 
 }
