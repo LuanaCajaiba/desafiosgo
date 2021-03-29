@@ -6,5 +6,5 @@ import (
 )
 
 func main() {
-	fmt.Println(t.Now())
+	fmt.Println(t.Now()) //hora impressa será utc
 }
