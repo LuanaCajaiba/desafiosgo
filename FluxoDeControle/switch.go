@@ -32,6 +32,22 @@ func main() {
 
 	}
 
+	quemtanoescritorio := "Luan"
+
+	switch quemtanoescritorio {
+	case "Luiz", "Carine", "Milena":
+		fmt.Println("Quem tá no escritório é o time 1 ")
+	case "Joana", "Adão", "Joice":
+		fmt.Println("Quem tá no escritório é o time 2 ")
+	case "Maria", "Rose", "João":
+		fmt.Println("Quem tá no escritório é o time 3 ")
+	case "Luana", "Rodrigo", "Andre":
+		fmt.Println("Quem tá no escritório é o time 4 ")
+	default:
+		fmt.Println("Não tem ninguém")
+
+	}
+
 }
 
 //switch avalia o código de cima para baixo.
