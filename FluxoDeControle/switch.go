@@ -48,6 +48,31 @@ func main() {
 
 	}
 
+	a := 1
+
+	switch a {
+	case 1, 2:
+		fmt.Println("1 ou 2 ")
+	case 3:
+		fmt.Println("3")
+	case 4:
+		fmt.Println("4")
+	case 5:
+		fmt.Println("5")
+	default:
+		fmt.Println("Não tem ninguém")
+
+	}
+
+	z := 4
+
+	switch {
+	case (z == 4), (z == 8):
+		fmt.Println("Z é igual a 4 ou a 8")
+	case (z < 10), (z < 11):
+		fmt.Println("Z é menor que 10 ou menor que 11")
+	}
+
 }
 
 //switch avalia o código de cima para baixo.
