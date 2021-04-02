@@ -5,6 +5,7 @@ import (
 )
 
 var x interface{}
+var y int
 
 func main() {
 	x = true
@@ -18,6 +19,14 @@ func main() {
 		fmt.Println(" é uma string ")
 	case float64:
 		fmt.Println(" é um float64 ")
+
+	}
+
+	switch x == 2 {
+	case x == 1:
+		fmt.Println("é 1")
+	case x == 2:
+		fmt.Println("é 2")
 
 	}
 
