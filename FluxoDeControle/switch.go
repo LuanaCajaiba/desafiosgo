@@ -32,9 +32,9 @@ func main() {
 
 	}
 
-	quemtanoescritorio := "Luan"
+	quemtanoescritorio1 := "Luan"
 
-	switch quemtanoescritorio {
+	switch quemtanoescritorio1 {
 	case "Luiz", "Carine", "Milena":
 		fmt.Println("Quem tá no escritório é o time 1 ")
 	case "Joana", "Adão", "Joice":
