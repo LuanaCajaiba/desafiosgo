@@ -12,4 +12,8 @@ func main() {
 	if x%2 == 0 && x%3 == 0 {
 		fmt.Println("é multiplo de dois e também de três")
 	}
+
+	if !(x%2 == 0) && x%3 == 0 {
+		fmt.Println(" não é multiplo de dois e também de três")
+	}
 }
