@@ -7,4 +7,12 @@ func main() {
 		fmt.Println(i)
 	}
 
+	anoqueeunasci := 1997
+	anoqueeuquerocontar := 2099
+
+	for anoqueeunasci <= anoqueeuquerocontar {
+		fmt.Println(anoqueeunasci)
+		anoqueeunasci++
+	}
+
 }
