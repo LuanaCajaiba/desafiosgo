@@ -16,7 +16,12 @@ func main() {
 
 	//	fmt.Println(fatia)
 
-	for i := 0; i < len(sabores); i++ {
+	/*	for i := 0; i < len(sabores); i++ {
 		fmt.Println(sabores[i])
-	}
+	}*/
+
+	//para criar deletar um item de uma slice, é criada uma slice nova com uma reatribuição de valores
+
+	sabores = append(sabores[:2], sabores[3:]...)
+	fmt.Println(sabores)
 }
