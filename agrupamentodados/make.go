@@ -20,4 +20,5 @@ func main() {
 	slice = append(slice, 10)
 
 	fmt.Println(slice, len(slice), cap(slice)) //a slice, comprimento da slice, capacidade da slice
+	//jogou a array fora, criou um novo array com mais elementos, copiou todos os elementos para lá
 }
