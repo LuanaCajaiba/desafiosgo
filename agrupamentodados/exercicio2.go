@@ -16,6 +16,6 @@ func main() {
 	numeros2 := slice[1:7]
 	fmt.Println(numeros2)
 
-	numero3 := slice[2:9]
+	numero3 := slice[2 : len(slice)-1]
 	fmt.Println(numero3)
 }
