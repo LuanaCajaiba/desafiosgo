@@ -14,7 +14,19 @@ func main() {
 
 	fmt.Println(qualquercoisa)
 
+	//o range não é sempre na ordem
+
 	for key, value := range qualquercoisa {
-		fmt.Println(key, value)
+		fmt.Println(key, value, "\n")
 	}
+
+	total := 0
+
+	for key, _ := range qualquercoisa {
+		total += key
+	}
+	fmt.Println(total)
+
+	delete(qualquercoisa, 123)
+	fmt.Println(qualquercoisa)
 }
