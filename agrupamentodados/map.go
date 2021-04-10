@@ -19,8 +19,14 @@ func main() {
 	fmt.Println(amigos)
 	fmt.Println(amigos["gopher"])
 
-	//o ,ok determina se existe ou não
-	sera, ok := amigos["fantasma"]
-	fmt.Println(sera, ok)
+	//o ,ok determina se existe ou não. o 0 não é o valor de fantasma e só para determinar que não existe valor
+	//sera, ok := amigos["fantasma"]
+	//fmt.Println(sera, ok)
+
+	if sera, ok := amigos["fantasma"]; !ok {
+		fmt.Println("não tem!")
+	} else {
+		fmt.Println(sera)
+	}
 
 }
