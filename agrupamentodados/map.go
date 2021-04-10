@@ -11,4 +11,11 @@ func main() {
 	}
 	fmt.Println(amigos)
 	fmt.Println(amigos["julia"])
+
+	//colocando números novos
+
+	amigos["gopher"] = 77777
+
+	fmt.Println(amigos)
+	fmt.Println(amigos["gopher"])
 }
