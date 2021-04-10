@@ -13,4 +13,8 @@ func main() {
 	}
 
 	fmt.Println(qualquercoisa)
+
+	for key, value := range qualquercoisa {
+		fmt.Println(key, value)
+	}
 }
