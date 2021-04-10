@@ -18,4 +18,9 @@ func main() {
 
 	fmt.Println(amigos)
 	fmt.Println(amigos["gopher"])
+
+	//o ,ok determina se existe ou não
+	sera, ok := amigos["fantasma"]
+	fmt.Println(sera, ok)
+
 }
