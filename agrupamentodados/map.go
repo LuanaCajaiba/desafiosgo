@@ -10,4 +10,5 @@ func main() {
 		"thiago": 9746493,
 	}
 	fmt.Println(amigos)
+	fmt.Println(amigos["julia"])
 }
