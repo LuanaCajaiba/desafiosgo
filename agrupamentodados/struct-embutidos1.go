@@ -5,8 +5,13 @@ import (
 )
 
 type pessoa struct {
+	nome  string
+	idade int
+}
+
+type profissional struct {
 	pessoa
-	título  string
+	titulo  string
 	salario int
 }
 
@@ -26,7 +31,11 @@ func main() {
 		salario: 10000,
 	}
 
-	fmt.Println(pessoa1.nome)
-	fmt.Println(pessoa2.salario)
+	pessoa3 := pessoa{"Mauricio", 40}
+	pessoa4 := profissional{pessoa{"Vanderlei", 50}, "Político", 10000000}
 
+	fmt.Println(pessoa1.nome)
+	fmt.Println(pessoa2.pessoa.nome)
+	fmt.Println(pessoa3.nome)
+	fmt.Println(pessoa4)
 }
