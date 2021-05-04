@@ -12,18 +12,18 @@ type pessoa struct {
 
 func main() {
 
-	var meumapa map[string]pessoa
+	//var meumapa map[string]pessoa
 
 	meumapa := make(map[string]pessoa)
 
-	 meumapa2 := map[string]pessoa{
-	 	"Pimentão": pessoa{
-			nome:      "Renata",
-			sobrenome: "Pimentão",
-			sabores:   []string{"pistache", "morango", "baunilha"}},
-		"da Prússia": pessoa{"Frederico", "da Prússia",
-			[]string{"sabão em pó", "pé de coelho", "feijão"}},
-	 }
+	// meumapa2 := map[string]pessoa{
+	// 	"Pimentão": pessoa{
+	//		nome:      "Renata",
+	//		sobrenome: "Pimentão",
+	//		sabores:   []string{"pistache", "morango", "baunilha"}},
+	//	"da Prússia": pessoa{"Frederico", "da Prússia",
+	//		[]string{"sabão em pó", "pé de coelho", "feijão"}},
+	// }
 
 	meumapa["Pimentão"] = pessoa{
 		nome:      "Renata",
